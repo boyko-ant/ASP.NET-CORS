@@ -5,6 +5,19 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoykoAnt.CORS.Module", "BoykoAnt.CORS.Module\BoykoAnt.CORS.Module.csproj", "{74CA7A00-DCCA-42BE-B566-418811134289}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{9EDEB043-2CD7-43C2-A1D5-88FCF10D9CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoykoAnt.CORS.Demo.WebService", "Demo\BoykoAnt.CORS.Demo.WebService\BoykoAnt.CORS.Demo.WebService.csproj", "{72595F2E-CC89-44E3-9AE6-E94BD10C9CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoykoAnt.CORS.Demo.WebClient", "Demo\BoykoAnt.CORS.Demo.WebClient\BoykoAnt.CORS.Demo.WebClient.csproj", "{268CE0D2-10EE-4F98-9DB3-53F41B2682E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{975748BA-CB10-45BB-9371-D233201E64F6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +28,20 @@ Global
 		{74CA7A00-DCCA-42BE-B566-418811134289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74CA7A00-DCCA-42BE-B566-418811134289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74CA7A00-DCCA-42BE-B566-418811134289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72595F2E-CC89-44E3-9AE6-E94BD10C9CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72595F2E-CC89-44E3-9AE6-E94BD10C9CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72595F2E-CC89-44E3-9AE6-E94BD10C9CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72595F2E-CC89-44E3-9AE6-E94BD10C9CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268CE0D2-10EE-4F98-9DB3-53F41B2682E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268CE0D2-10EE-4F98-9DB3-53F41B2682E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268CE0D2-10EE-4F98-9DB3-53F41B2682E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268CE0D2-10EE-4F98-9DB3-53F41B2682E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72595F2E-CC89-44E3-9AE6-E94BD10C9CCF} = {9EDEB043-2CD7-43C2-A1D5-88FCF10D9CE3}
+		{268CE0D2-10EE-4F98-9DB3-53F41B2682E2} = {9EDEB043-2CD7-43C2-A1D5-88FCF10D9CE3}
 	EndGlobalSection
 EndGlobal
