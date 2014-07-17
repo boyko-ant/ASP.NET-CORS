@@ -10,6 +10,8 @@ namespace BoykoAnt.CORS.Demo.WebService
 			CrossDomainRequestModuleConfiguration.Instance.AllowedHosts.Add("localhost");
 			CrossDomainRequestModuleConfiguration.Instance.AllowedHosts.Add("localhost:50101");
 			CrossDomainRequestModuleConfiguration.Instance.AllowedHosts.Add("localhost:50102");
+
+			CrossDomainRequestModuleConfiguration.Instance.IsDropNotAllowedHosts = true;
 		}
 	}
 }
