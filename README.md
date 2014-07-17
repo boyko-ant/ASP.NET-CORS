@@ -33,5 +33,8 @@ public class Global : System.Web.HttpApplication
 }
 ```
 
+### Wiki
+You can find more information about current project on [wiki](https://github.com/boyko-ant/ASP.NET-CORS/wiki).
+
 ### Demo
 You can clone this repository and checkout my demo projects if you want to understand how it works in more details. 
