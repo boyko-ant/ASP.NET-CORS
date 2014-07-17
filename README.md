@@ -32,3 +32,6 @@ public class Global : System.Web.HttpApplication
 	}
 }
 ```
+
+### Demo
+You can clone this repository and checkout my demo projects if you want to understand how it works in more details. 
