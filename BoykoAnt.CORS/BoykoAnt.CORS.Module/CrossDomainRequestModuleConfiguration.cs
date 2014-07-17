@@ -9,6 +9,7 @@ namespace BoykoAnt.CORS.Module
 		private CrossDomainRequestModuleConfiguration()
 		{
 			_allowedHosts = new List<string>();
+			IsDropNotAllowedHosts = true;
 		}
 
 		static CrossDomainRequestModuleConfiguration()
@@ -31,5 +32,8 @@ namespace BoykoAnt.CORS.Module
 		{
 			get { return _allowedHosts; }
 		}
+
+		public bool IsDropNotAllowedHosts
+		{ get; set; }
 	}
 }

@@ -47,9 +47,12 @@ namespace BoykoAnt.CORS.Module
 			}
 			else
 			{
-				response.StatusCode = (int)HttpStatusCode.Forbidden;
-				response.StatusDescription = string.Format("Host {0} is not allowed.", uri.Host);
-				response.End();
+				if (CrossDomainRequestModuleConfiguration.Instance.IsDropNotAllowedHosts)
+				{
+					response.StatusCode = (int) HttpStatusCode.Forbidden;
+					response.StatusDescription = string.Format("Host {0} is not allowed.", uri.Host);
+					response.End();
+				}
 			}
 		}
 	}
