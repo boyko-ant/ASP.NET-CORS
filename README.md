@@ -1,7 +1,7 @@
 ASP.NET-CORS
 ============
 
-How to use:
+## How to use:
 
 ### Install nuget package
 
